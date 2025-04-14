@@ -1,0 +1,15 @@
+[project]
+name = "hidream-i1"
+description = "ComfyUI nodes for HiDream-I1 model."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.5.1", "torchvision>=0.20.1", "diffusers>=0.32.1", "transformers>=4.47.1", "einops>=0.7.0", "accelerate>=1.2.1"]
+
+[project.urls]
+Repository = "https://github.com/Yuan-ManX/ComfyUI-HiDream-I1"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-HiDream-I1"
+Icon = ""
